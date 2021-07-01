@@ -6,6 +6,63 @@
     box-sizing: border-box;
 }
 
+/*Common*/
+
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 7px 19px;
+    background-color: #0061ff;
+    border: 0ch;
+    color: white;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    padding: 20px; 
+    
+}
+
+.header-left, .header-right{
+    width: 50%;
+    float:left;  
+}
+
+.header-right {
+    text-align: right;
+}
+
+.logo{
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+    nav, nav li, .start, .img-logo {
+    display: inline-block;  
+    vertical-align: middle;
+}
+
+
+li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.start {
+    margin-left: 20px;
 }
