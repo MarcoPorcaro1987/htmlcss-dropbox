@@ -214,7 +214,7 @@ h1 {
     padding-top: 40px;
 }
 
-.elenco-punti h4 {
+h4 {
     margin-bottom: 20px;
 }
 ul {
@@ -228,4 +228,35 @@ ul li {
 
 .fa-check {
     color: #0061ff;
+}
+
+/*Sell contact*/
+
+.sell-contact {
+    margin-top: 40px;
+    border: 1px solid #d0d0d3;
+}
+
+.sell-container {
+    padding: 30px;
+    line-height: 2;
+}
+
+.sell-left, .sell-right {
+    float: left;
+}
+.sell-left {
+    width: 70%;
+}
+
+.sell-right {
+    width: 30%;
+}
+
+.sell-container p {
+    font-size: 12px;
+}
+
+.contact-button .buttons {
+    width: 100%;
 }
