@@ -49,6 +49,9 @@ h2 {
     font-size: 35px;
 }
 
+h3 {
+    font-size: 25px;
+}
 /*Header*/
 
 header{
@@ -229,7 +232,7 @@ ul {
     list-style: none;
 }
 
-ul li {
+.elenco-punti ul li {
     margin-bottom: 20px;
     font-size: 12px;
 }
@@ -493,4 +496,33 @@ ul li {
     color: black;
     border-style: none;
     padding: 7px 50px;
+}
+
+/*Sezione Faq*/
+
+.faq {
+    margin: 50px 0;
+}
+
+.title-faq{
+    margin-bottom: 20px;
+}
+
+.faq-text {
+    border-top: 1px solid #d0d0d3;
+}
+
+.faq-text li{
+    padding: 25px 0;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.fa-angle-down {
+    margin-left: 450px;
+}
+
+.last {
+    border-bottom: 1px solid #d0d0d3;
 }
