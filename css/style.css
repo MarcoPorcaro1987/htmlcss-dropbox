@@ -467,6 +467,7 @@ h1 {
     margin:0;
     width: 40px;
     border-bottom: 2px solid #dedee0;
+    display: block;
 }
 
 .logo-description p {
