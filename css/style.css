@@ -472,7 +472,7 @@ h1 {
 
 .logo-description p {
     font-size: 12px;
-    margin-bottom: 63px;
+    margin-bottom: 61.5px;
 }
 
 /*Sezione Trial*/
@@ -576,6 +576,9 @@ footer {
     font-size: 12px;
 }
 
+.closing-line {
+    display: block;
+}
 .language i, p {
     display: inline-block;
 }
