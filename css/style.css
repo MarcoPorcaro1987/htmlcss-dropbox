@@ -116,6 +116,7 @@ h1 {
 
 .hero-left {
     width: 35%;
+    padding-right: 30px;
 }
 
 .hero-right {
@@ -262,4 +263,39 @@ ul li {
 
 .contact-button .buttons {
     width: 100%;
+}
+
+/*Section Partner*/
+
+.partner {
+    margin-top: 150px;
+}
+.partner-left, .partner-right{
+    float: left;
+}
+
+.partner-left {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.partner-right {
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.photo-partner {
+    width: 100%;
+}
+
+.partner-text h3 {
+    margin-bottom: 30px;
+}
+
+.partner-button .buttons{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
 }
