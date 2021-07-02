@@ -299,3 +299,43 @@ ul li {
     border: 1px solid black;
     margin-top: 30px;
 }
+
+/*Section db Business*/
+
+.db-business {
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.db-title {
+    margin-bottom: 40px;
+}
+
+.db-left, .db-center, .db-right{
+    float:left;  
+    width: calc(33.3% - 27px);
+}
+
+.db-center {
+    margin: 0 40.5px;
+}
+
+.db-row1 {
+    margin-bottom: 80px;
+}
+.photo-db {
+    width: 100%;
+}
+
+.text-db {
+    margin-top: 10px;
+}
+
+.text-db p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
