@@ -14,6 +14,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 .clearfix::after {
@@ -55,6 +56,7 @@ h3 {
 
 h4 {
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 ul {
@@ -117,6 +119,7 @@ nav, nav li, .start, .img-logo {
     background-color: #b4d0e7;
     margin-top: 70px;
     padding-top: 70px;
+    font-size: 15px;
 }
 
 
@@ -169,9 +172,13 @@ h1 {
 .scelta {
     display: inline-block;
     margin: 40px 20px 30px 0px;
+    font-size: 14px;
 }
 
-
+input {
+    vertical-align: middle;
+    margin-right: 2px;
+}
 
 .piani-left, .piani-center, .piani-right{
     float:left;  
@@ -191,15 +198,9 @@ h1 {
     border-bottom: 1px solid #d0d0d3;
 }
 
-
-
 .descrizione-piano {
     width: 80%;
     padding-top:15px;
-}
-
-.descrizione-piano p {
-    font-size: 12px;
 }
 
 .condizioni-piano {
@@ -240,7 +241,6 @@ h1 {
 
 .elenco-punti ul li {
     margin-bottom: 20px;
-    font-size: 12px;
 }
 
 .fa-check {
@@ -270,9 +270,9 @@ h1 {
     width: 30%;
 }
 
-.sell-container p {
-    font-size: 12px;
-}
+/* .sell-container p {
+    /* font-size: 12px; */
+} */
 
 .contact-button .buttons {
     width: 100%;
@@ -346,7 +346,6 @@ h1 {
 
 .text-db p {
     margin-top: 10px;
-    font-size: 12px;
 }
 
 .underline-text {
@@ -470,7 +469,6 @@ h1 {
 }
 
 .logo-description p {
-    font-size: 12px;
     margin-bottom: 63px;
 }
 
@@ -518,9 +516,8 @@ h1 {
     border-top: 1px solid #d0d0d3;
 }
 
-.faq-text li{
+.faq-text p{
     padding: 25px 0;
-    font-size: 12px;
     font-weight: bold;
     display: inline-block;
 }
@@ -559,7 +556,6 @@ footer {
 }
 .col-fot a {
     color: white;
-    font-size: 12px;
 }
 
 .closing-line {
@@ -572,7 +568,6 @@ footer {
 .language {
     margin:30px 0;
     color: #999999;
-    font-size: 12px;
 }
 
 .language i, .language p {
