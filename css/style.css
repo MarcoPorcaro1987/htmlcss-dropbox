@@ -31,6 +31,9 @@ body {
     color: white;
 }
 
+.buttons:hover {
+    background-color: lightblue;
+}
 
 .container-hf {
     width: 85%;
@@ -106,6 +109,10 @@ nav, nav li, .start, .img-logo {
 .head li a {
     color: black;
     margin: 0 20px;
+}
+
+.head a:hover {
+    color: #0061ff;
 }
 
 .start {
@@ -270,10 +277,6 @@ input {
     width: 30%;
 }
 
-/* .sell-container p {
-    /* font-size: 12px; */
-} */
-
 .contact-button .buttons {
     width: 100%;
 }
@@ -316,7 +319,7 @@ input {
 /*Section db Business*/
 
 .db-business {
-    margin-top: 60px;
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -505,7 +508,7 @@ input {
 /*Sezione Faq*/
 
 .faq {
-    margin: 50px 0;
+    padding: 65px 0;
 }
 
 .title-faq{
