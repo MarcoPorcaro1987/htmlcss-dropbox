@@ -519,10 +519,22 @@ input {
     border-top: 1px solid #d0d0d3;
 }
 
-.faq-text p{
+.question{
     padding: 25px 0;
     font-weight: bold;
     display: inline-block;
+}
+
+.answer {
+    display: none;
+    color: #d0d0d3;
+    width: 80%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.faq-text:hover .answer {
+    display: block;
 }
 
 .fa-angle-down {
