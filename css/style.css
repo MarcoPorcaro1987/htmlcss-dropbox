@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .clearfix::after {
@@ -381,6 +381,10 @@ input {
     width: 44%;
 }
 
+.col-team {
+    background-color: #f5f5f5;
+
+}
 
 .square {
     width: 50%;
@@ -472,7 +476,7 @@ input {
 }
 
 .logo-description p {
-    margin-bottom: 63px;
+    margin-bottom: 40px;
 }
 
 /*Sezione Trial*/
